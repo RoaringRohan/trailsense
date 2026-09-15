@@ -1,0 +1,16 @@
+# Backend
+backend/__pycache__/
+backend/*.pyc
+backend/landmarks_data/
+backend/venv/
+backend/.env
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.DS_Store
+
+# General
+.DS_Store
+*.log

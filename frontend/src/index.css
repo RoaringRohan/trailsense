@@ -1,0 +1,13 @@
+/* Global reset and basic settings */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* No tailwind inputs here, pure vanilla entry point if needed, though App.css covers most. */
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
