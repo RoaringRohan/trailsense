@@ -12,9 +12,12 @@ Project page: [devpost.com/software/trailsense-zit7ox](https://devpost.com/softw
 
 ![TrailSense dashboard](docs/dashboard.png)
 
-*The dashboard in EXPLORE mode, backend connected, before any landmark is captured. Captured on a
-laptop with no camera attached, so the feed panel is empty; the telemetry tile on the right (FPS,
-latency, feature count, battery) is static placeholder markup, not live measurement.*
+*The dashboard in RETURN mode: six landmarks captured on the way out, the current frame matched
+against them, ORB keypoints drawn on the feed, confidence at 100%. The vision pipeline, landmark
+log and confidence score are real output from `vision_core.py`. The camera input is not: this was
+recorded on a laptop with no camera, so a synthetic panning scene was fed in as the video source in
+place of a trail. The telemetry tile on the right (FPS, latency, feature count, battery) is static
+placeholder markup, not live measurement.*
 
 ## What it does
 
