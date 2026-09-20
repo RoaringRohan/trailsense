@@ -1,4 +1,5 @@
-from fastapi import FastAPI, Response, HTTPException
+from fastapi import FastAPI, HTTPException
+from fastapi.responses import StreamingResponse
 from fastapi.middleware.cors import CORSMiddleware
 import cv2
 import typing
@@ -66,7 +67,7 @@ def generate_frames():
 
 @app.get("/video_feed")
 def video_feed():
-    return Response(generate_frames(), media_type='multipart/x-mixed-replace; boundary=frame')
+    return StreamingResponse(generate_frames(), media_type='multipart/x-mixed-replace; boundary=frame')
 
 @app.get("/status")
 def get_status():

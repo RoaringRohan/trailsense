@@ -10,6 +10,12 @@ Project page: [devpost.com/software/trailsense-zit7ox](https://devpost.com/softw
 
 *Illustration of the wearable concept: a camera on the glasses frame feeding a small board worn at the temple.*
 
+![TrailSense dashboard](docs/dashboard.png)
+
+*The dashboard in EXPLORE mode, backend connected, before any landmark is captured. Captured on a
+laptop with no camera attached, so the feed panel is empty; the telemetry tile on the right (FPS,
+latency, feature count, battery) is static placeholder markup, not live measurement.*
+
 ## What it does
 
 GPS fails in canyons, under canopy, and in disasters. Cellular fails with it, so cloud vision is not
