@@ -6,6 +6,10 @@ and tells you whether you are still on the way back.
 Built at MakeUofT 2026, where it won **[MLH] Best Use of Vultr**.
 Project page: [devpost.com/software/trailsense-zit7ox](https://devpost.com/software/trailsense-zit7ox)
 
+![Illustration of a person in a Qualcomm beanie and glasses, with a small camera module mounted on the glasses frame and a development board clipped at the temple](assets/trailsense-wearable.jpeg)
+
+*Illustration of the wearable concept: a camera on the glasses frame feeding a small board worn at the temple.*
+
 ## What it does
 
 GPS fails in canyons, under canopy, and in disasters. Cellular fails with it, so cloud vision is not
